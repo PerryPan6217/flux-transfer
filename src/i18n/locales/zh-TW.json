@@ -1,0 +1,272 @@
+{
+  "app": {
+    "name": "NovaSSH",
+    "tagline": "現代化跨平台 SSH & SFTP 客戶端",
+    "version": "版本 1.0.0"
+  },
+  "nav": {
+    "home": "主頁",
+    "connectionHub": "連線中心",
+    "portForwarding": "埠轉發",
+    "aiAssistance": "AI 助手",
+    "settings": "設定"
+  },
+  "home": {
+    "welcome": "歡迎回到 NovaSSH",
+    "welcomeSubtitle": "您的現代化跨平台 SSH & SFTP 客戶端",
+    "recentConnections": "最近連線",
+    "quickConnect": "快速連線",
+    "noRecentConnections": "暫無最近連線",
+    "startByAdding": "請在連線中心新增主機",
+    "goToHub": "前往連線中心"
+  },
+  "hub": {
+    "title": "已儲存的主機",
+    "newHost": "新增主機",
+    "editHost": "編輯主機",
+    "deleteHost": "刪除主機",
+    "connectSSH": "連線 SSH",
+    "connectSFTP": "連線 SFTP",
+    "hostDetails": "主機詳情",
+    "noHosts": "尚未儲存任何主機",
+    "addFirstHost": "新增您的第一個主機以開始使用",
+    "searchHosts": "搜尋主機...",
+    "groupBy": "分組方式",
+    "sortBy": "排序方式",
+    "table": {
+      "name": "名稱",
+      "address": "地址",
+      "user": "使用者",
+      "actions": "操作",
+      "lastConnected": "上次連線",
+      "group": "分組"
+    },
+    "form": {
+      "name": "顯示名稱",
+      "host": "主機地址",
+      "port": "埠",
+      "username": "使用者名稱",
+      "authType": "認證方式",
+      "password": "密碼",
+      "privateKey": "私鑰",
+      "passphrase": "金鑰密碼",
+      "group": "分組",
+      "tags": "標籤",
+      "save": "儲存",
+      "cancel": "取消",
+      "testConnection": "測試連線",
+      "authPassword": "密碼",
+      "authKey": "私鑰"
+    },
+    "confirmDelete": "確定要刪除此主機嗎？",
+    "deleteWarning": "此操作無法復原。"
+  },
+  "terminal": {
+    "title": "終端機",
+    "reconnect": "重新連線",
+    "disconnect": "中斷連線",
+    "clear": "清除",
+    "copy": "複製",
+    "paste": "貼上",
+    "selectAll": "全選",
+    "fontSize": "字型大小",
+    "aiComplete": "AI 自動補全",
+    "connected": "已連線",
+    "disconnected": "已中斷",
+    "connecting": "連線中...",
+    "sessionClosed": "會話已關閉",
+    "commandHistory": "命令歷史"
+  },
+  "sftp": {
+    "title": "遠端瀏覽器",
+    "currentPath": "目前路徑",
+    "goUp": "返回上層目錄",
+    "refresh": "重新整理",
+    "newFolder": "新增資料夾",
+    "newFile": "新增檔案",
+    "upload": "上傳",
+    "download": "下載",
+    "delete": "刪除",
+    "rename": "重新命名",
+    "edit": "編輯",
+    "preview": "預覽",
+    "properties": "屬性",
+    "cut": "剪下",
+    "copy": "複製",
+    "paste": "貼上",
+    "selectAll": "全選",
+    "dropToUpload": "拖放檔案至此上傳",
+    "dragOverlay": "釋放以上傳檔案",
+    "table": {
+      "name": "名稱",
+      "size": "大小",
+      "type": "類型",
+      "modified": "修改時間",
+      "permissions": "權限",
+      "owner": "擁有者"
+    },
+    "fileTypes": {
+      "directory": "目錄",
+      "file": "檔案",
+      "symlink": "符號連結",
+      "unknown": "未知"
+    },
+    "confirmDelete": "確定要刪除這些項目嗎？",
+    "deleteWarning": "此操作無法復原。",
+    "uploadProgress": "上傳進度",
+    "downloadProgress": "下載進度"
+  },
+  "portForwarding": {
+    "title": "埠轉發",
+    "newRule": "新增規則",
+    "editRule": "編輯規則",
+    "deleteRule": "刪除規則",
+    "noRules": "暫無埠轉發規則",
+    "addFirstRule": "新增您的第一個規則以開始使用",
+    "types": {
+      "local": "本地",
+      "remote": "遠端",
+      "dynamic": "動態 (SOCKS)"
+    },
+    "form": {
+      "name": "規則名稱",
+      "type": "類型",
+      "localPort": "本地埠",
+      "localHost": "本地主機",
+      "remotePort": "遠端埠",
+      "remoteHost": "遠端主機",
+      "enabled": "啟用"
+    },
+    "table": {
+      "name": "名稱",
+      "type": "類型",
+      "local": "本地",
+      "remote": "遠端",
+      "status": "狀態",
+      "actions": "操作"
+    }
+  },
+  "ai": {
+    "title": "AI 助手",
+    "loginTitle": "GitHub Copilot 整合",
+    "loginDescription": "使用 GitHub 裝置代碼登入一次，即可啟用 AI 命令自動補全和聊天助手功能。",
+    "authenticate": "使用 GitHub 登入",
+    "loggingIn": "登入中...",
+    "loginSuccess": "登入成功！",
+    "selectModel": "選擇模型",
+    "models": {
+      "gpt4": "Copilot GPT-4",
+      "chat": "Copilot Chat",
+      "claude": "Claude (如可用)"
+    },
+    "chat": {
+      "placeholder": "詢問 Copilot...",
+      "send": "傳送",
+      "clear": "清除聊天",
+      "copy": "複製",
+      "welcomeMessage": "您好！我可以幫助您編寫終端命令、除錯指令碼或管理伺服器。有什麼需要幫忙的嗎？"
+    },
+    "suggestions": {
+      "commandHelp": "幫我處理這個命令",
+      "explainOutput": "解釋這個輸出",
+      "fixError": "如何修復這個錯誤？",
+      "optimize": "最佳化這個命令"
+    },
+    "tokenExpired": "會話已過期，請重新登入。",
+    "logout": "登出"
+  },
+  "settings": {
+    "title": "設定",
+    "appearance": {
+      "title": "外觀",
+      "theme": "主題",
+      "themeLight": "日間模式",
+      "themeDark": "夜間模式",
+      "themeSystem": "跟隨系統",
+      "uiFontSize": "介面字型大小",
+      "fontSmall": "小",
+      "fontMedium": "中",
+      "fontLarge": "大"
+    },
+    "terminal": {
+      "title": "終端機",
+      "fontSize": "終端字型大小",
+      "fontFamily": "字型",
+      "cursorStyle": "游標樣式",
+      "cursorBlink": "游標閃爍",
+      "scrollback": "回滾行數"
+    },
+    "language": {
+      "title": "語言",
+      "displayLanguage": "顯示語言",
+      "en": "English",
+      "zhCN": "简体中文",
+      "zhTW": "繁體中文",
+      "system": "跟隨系統"
+    },
+    "sftp": {
+      "title": "SFTP",
+      "showHiddenFiles": "顯示隱藏檔案",
+      "confirmDelete": "刪除前確認",
+      "transferMode": "傳輸模式",
+      "asciiMode": "ASCII",
+      "binaryMode": "二進位制",
+      "autoMode": "自動"
+    },
+    "advanced": {
+      "title": "進階",
+      "autoSaveSessions": "自動儲存會話",
+      "sshKeepalive": "SSH 保活間隔",
+      "connectionTimeout": "連線超時",
+      "resetSettings": "恢復預設設定"
+    }
+  },
+  "common": {
+    "save": "儲存",
+    "cancel": "取消",
+    "delete": "刪除",
+    "edit": "編輯",
+    "create": "建立",
+    "add": "新增",
+    "remove": "移除",
+    "close": "關閉",
+    "open": "開啟",
+    "refresh": "重新整理",
+    "search": "搜尋",
+    "filter": "篩選",
+    "sort": "排序",
+    "copy": "複製",
+    "paste": "貼上",
+    "cut": "剪下",
+    "selectAll": "全選",
+    "undo": "復原",
+    "redo": "重做",
+    "yes": "是",
+    "no": "否",
+    "ok": "確定",
+    "confirm": "確認",
+    "success": "成功",
+    "error": "錯誤",
+    "warning": "警告",
+    "info": "資訊",
+    "loading": "載入中...",
+    "empty": "空",
+    "unknown": "未知",
+    "never": "從未",
+    "viewAll": "查看全部",
+    "other": "其他",
+    "all": "全部"
+  },
+  "contextMenu": {
+    "preview": "預覽",
+    "edit": "編輯",
+    "download": "下載",
+    "upload": "上傳",
+    "rename": "重新命名",
+    "properties": "屬性",
+    "newFolder": "新增資料夾",
+    "newFile": "新增檔案",
+    "copyPath": "複製路徑",
+    "openTerminal": "在終端機中開啟"
+  }
+}

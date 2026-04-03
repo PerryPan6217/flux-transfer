@@ -1,0 +1,272 @@
+{
+  "app": {
+    "name": "NovaSSH",
+    "tagline": "Modern Cross-Platform SSH & SFTP Client",
+    "version": "Version 1.0.0"
+  },
+  "nav": {
+    "home": "Home",
+    "connectionHub": "Connection Hub",
+    "portForwarding": "Port Forwarding",
+    "aiAssistance": "AI Assistance",
+    "settings": "Settings"
+  },
+  "home": {
+    "welcome": "Welcome back to NovaSSH",
+    "welcomeSubtitle": "Your modern cross-platform SSH & SFTP client",
+    "recentConnections": "Recently Connected",
+    "quickConnect": "Quick Connect",
+    "noRecentConnections": "No recent connections",
+    "startByAdding": "Start by adding a new host in Connection Hub",
+    "goToHub": "Go to Connection Hub"
+  },
+  "hub": {
+    "title": "Saved Hosts",
+    "newHost": "New Host",
+    "editHost": "Edit Host",
+    "deleteHost": "Delete Host",
+    "connectSSH": "Connect SSH",
+    "connectSFTP": "Connect SFTP",
+    "hostDetails": "Host Details",
+    "noHosts": "No hosts saved yet",
+    "addFirstHost": "Add your first host to get started",
+    "searchHosts": "Search hosts...",
+    "groupBy": "Group by",
+    "sortBy": "Sort by",
+    "table": {
+      "name": "Name",
+      "address": "Address",
+      "user": "User",
+      "actions": "Actions",
+      "lastConnected": "Last Connected",
+      "group": "Group"
+    },
+    "form": {
+      "name": "Display Name",
+      "host": "Host Address",
+      "port": "Port",
+      "username": "Username",
+      "authType": "Authentication",
+      "password": "Password",
+      "privateKey": "Private Key",
+      "passphrase": "Passphrase",
+      "group": "Group",
+      "tags": "Tags",
+      "save": "Save",
+      "cancel": "Cancel",
+      "testConnection": "Test Connection",
+      "authPassword": "Password",
+      "authKey": "Private Key"
+    },
+    "confirmDelete": "Are you sure you want to delete this host?",
+    "deleteWarning": "This action cannot be undone."
+  },
+  "terminal": {
+    "title": "Terminal",
+    "reconnect": "Reconnect",
+    "disconnect": "Disconnect",
+    "clear": "Clear",
+    "copy": "Copy",
+    "paste": "Paste",
+    "selectAll": "Select All",
+    "fontSize": "Font Size",
+    "aiComplete": "AI Auto-Complete",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "connecting": "Connecting...",
+    "sessionClosed": "Session closed",
+    "commandHistory": "Command History"
+  },
+  "sftp": {
+    "title": "Remote Browser",
+    "currentPath": "Current Path",
+    "goUp": "Go to Parent Directory",
+    "refresh": "Refresh",
+    "newFolder": "New Folder",
+    "newFile": "New File",
+    "upload": "Upload",
+    "download": "Download",
+    "delete": "Delete",
+    "rename": "Rename",
+    "edit": "Edit",
+    "preview": "Preview",
+    "properties": "Properties",
+    "cut": "Cut",
+    "copy": "Copy",
+    "paste": "Paste",
+    "selectAll": "Select All",
+    "dropToUpload": "Drop files here to upload",
+    "dragOverlay": "Release to upload files",
+    "table": {
+      "name": "Name",
+      "size": "Size",
+      "type": "Type",
+      "modified": "Modified",
+      "permissions": "Permissions",
+      "owner": "Owner"
+    },
+    "fileTypes": {
+      "directory": "Directory",
+      "file": "File",
+      "symlink": "Symlink",
+      "unknown": "Unknown"
+    },
+    "confirmDelete": "Are you sure you want to delete these items?",
+    "deleteWarning": "This action cannot be undone.",
+    "uploadProgress": "Upload Progress",
+    "downloadProgress": "Download Progress"
+  },
+  "portForwarding": {
+    "title": "Port Forwarding",
+    "newRule": "New Rule",
+    "editRule": "Edit Rule",
+    "deleteRule": "Delete Rule",
+    "noRules": "No port forwarding rules",
+    "addFirstRule": "Add your first rule to get started",
+    "types": {
+      "local": "Local",
+      "remote": "Remote",
+      "dynamic": "Dynamic (SOCKS)"
+    },
+    "form": {
+      "name": "Rule Name",
+      "type": "Type",
+      "localPort": "Local Port",
+      "localHost": "Local Host",
+      "remotePort": "Remote Port",
+      "remoteHost": "Remote Host",
+      "enabled": "Enabled"
+    },
+    "table": {
+      "name": "Name",
+      "type": "Type",
+      "local": "Local",
+      "remote": "Remote",
+      "status": "Status",
+      "actions": "Actions"
+    }
+  },
+  "ai": {
+    "title": "AI Assistance",
+    "loginTitle": "GitHub Copilot Integration",
+    "loginDescription": "Login once with your GitHub device code to enable AI command auto-completion and chat assistance.",
+    "authenticate": "Authenticate with GitHub",
+    "loggingIn": "Logging in...",
+    "loginSuccess": "Login successful!",
+    "selectModel": "Select Model",
+    "models": {
+      "gpt4": "Copilot GPT-4",
+      "chat": "Copilot Chat",
+      "claude": "Claude (if available)"
+    },
+    "chat": {
+      "placeholder": "Ask Copilot...",
+      "send": "Send",
+      "clear": "Clear Chat",
+      "copy": "Copy",
+      "welcomeMessage": "Hello! I'm ready to help you write terminal commands, debug scripts, or manage your servers. What do you need?"
+    },
+    "suggestions": {
+      "commandHelp": "Help me with this command",
+      "explainOutput": "Explain this output",
+      "fixError": "How to fix this error?",
+      "optimize": "Optimize this command"
+    },
+    "tokenExpired": "Session expired. Please login again.",
+    "logout": "Logout"
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": {
+      "title": "Appearance",
+      "theme": "Theme",
+      "themeLight": "Light Mode",
+      "themeDark": "Night Mode",
+      "themeSystem": "Follow System",
+      "uiFontSize": "UI Font Size",
+      "fontSmall": "Small",
+      "fontMedium": "Medium",
+      "fontLarge": "Large"
+    },
+    "terminal": {
+      "title": "Terminal",
+      "fontSize": "Terminal Font Size",
+      "fontFamily": "Font Family",
+      "cursorStyle": "Cursor Style",
+      "cursorBlink": "Cursor Blink",
+      "scrollback": "Scrollback Lines"
+    },
+    "language": {
+      "title": "Language",
+      "displayLanguage": "Display Language",
+      "en": "English",
+      "zhCN": "简体中文 (Simplified Chinese)",
+      "zhTW": "繁體中文 (Traditional Chinese)",
+      "system": "Follow System"
+    },
+    "sftp": {
+      "title": "SFTP",
+      "showHiddenFiles": "Show Hidden Files",
+      "confirmDelete": "Confirm Before Delete",
+      "transferMode": "Transfer Mode",
+      "asciiMode": "ASCII",
+      "binaryMode": "Binary",
+      "autoMode": "Auto"
+    },
+    "advanced": {
+      "title": "Advanced",
+      "autoSaveSessions": "Auto Save Sessions",
+      "sshKeepalive": "SSH Keepalive Interval",
+      "connectionTimeout": "Connection Timeout",
+      "resetSettings": "Reset to Defaults"
+    }
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "add": "Add",
+    "remove": "Remove",
+    "close": "Close",
+    "open": "Open",
+    "refresh": "Refresh",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "copy": "Copy",
+    "paste": "Paste",
+    "cut": "Cut",
+    "selectAll": "Select All",
+    "undo": "Undo",
+    "redo": "Redo",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "confirm": "Confirm",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info",
+    "loading": "Loading...",
+    "empty": "Empty",
+    "unknown": "Unknown",
+    "never": "Never",
+    "viewAll": "View All",
+    "other": "Other",
+    "all": "All"
+  },
+  "contextMenu": {
+    "preview": "Preview",
+    "edit": "Edit",
+    "download": "Download",
+    "upload": "Upload",
+    "rename": "Rename",
+    "properties": "Properties",
+    "newFolder": "New Folder",
+    "newFile": "New File",
+    "copyPath": "Copy Path",
+    "openTerminal": "Open in Terminal"
+  }
+}
